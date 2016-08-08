@@ -25,7 +25,8 @@
   cd AwesomeProject
   react-native run-ios
   ```
-
+### debug-ui
++ http://localhost:8081/debugger-ui
 
 ##resource:
 + https://facebook.github.io/react-native/docs/getting-started.html
