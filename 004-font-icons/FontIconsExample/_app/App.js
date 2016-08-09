@@ -5,14 +5,16 @@ import {
 } from 'react-native';
 
 import styles from './styles/app';
+import Icon from 'react-native-vector-icons/FontAwesome';
 
 export default class App extends Component {
   render() {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to React Native!
+          Welcome to React Native by fei!
         </Text>
+        <Icon name="rocket" size={30} color="#900" />
         <Text style={styles.instructions}>
           To get started, edit index.ios.js
         </Text>
