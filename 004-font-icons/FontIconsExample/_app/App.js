@@ -14,7 +14,10 @@ export default class App extends Component {
         <Text style={styles.welcome}>
           Welcome to React Native by fei!
         </Text>
-        <Icon name="calendar-o" size={30} color="#999" />
+        <Icon name="camera" size={20} color="#ddd" />
+        <Icon name="calendar-o" size={30} color="#F60" />
+        <Icon name="cloud" size={40} color="#00f" />
+        <Icon name="coffee" size={50} color="#999" />
         <Text style={styles.instructions}>
           To get started, edit index.ios.js
         </Text>
