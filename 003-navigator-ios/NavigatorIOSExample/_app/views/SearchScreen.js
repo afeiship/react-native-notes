@@ -6,27 +6,14 @@ import {
   View
 } from 'react-native';
 
+import styles from '../styles/views/search-screen';
 
 export default class SearchScreen extends Component{
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>Search content: 131231232</Text>
+        <Text style={styles.welcome}>我是首页的内容</Text>
       </View>
     );
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: 'white',
-    top:64,
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    color:'#f00',
-    margin: 10,
-  },
-});

@@ -6,33 +6,9 @@
 
 //Basic:
 import React, { Component } from 'react';
-import {
-  AppRegistry,
-  NavigatorIOS,
-  Text,
-  View
-} from 'react-native';
+import { AppRegistry } from 'react-native';
+import App from './_app/App';
 
-//Views:
-import SearchScreen from './_app/views/SearchScreen';
-
-//Styles:
-import styles from './_app/styles/index.ios';
-
-//rootViewController:
-class NavigatorIOSExample extends Component {
-  render() {
-    return (
-      <NavigatorIOS
-        style={styles.container}
-        initialRoute={{
-          title:'movies',//这是navigationController的title。
-          component:SearchScreen //注释：这里是要写的是相当于iOS开发里navigationController的rootViewController页面。
-        }}
-      />
-    );
-  }
-}
 
 //App Start:
-AppRegistry.registerComponent('NavigatorIOSExample', () => NavigatorIOSExample);
+AppRegistry.registerComponent('NavigatorIOSExample', () => App);
