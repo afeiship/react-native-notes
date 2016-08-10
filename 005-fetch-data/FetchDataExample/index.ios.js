@@ -26,7 +26,7 @@ class FetchDataExample extends Component {
           style={styles.container}
           initialRoute={{
             'title':'Welcome',
-            'component': Movies,
+            'component': Movies
           }} />
     );
   }

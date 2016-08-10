@@ -15,17 +15,20 @@ const REQUEST_URL = 'https://raw.githubusercontent.com/facebook/react-native/mas
 
 export default class Movies extends Component{
 
-  getInitialState(){
-    return {
+  constructor(props){
+    super(props);
+    this.state = {
       dataSource:new ListView.DataSource({
         rowHasChanged:(row1, row2) => row1 != row2
       }),
       loaded:false
-    }
+    };
   }
+
   componentDidMount(){
     this.fetchData();
   }
+  
   fetchData(){
     fetch(REQUEST_URL)
     .then((response) => response.json())
@@ -106,6 +109,7 @@ const styles = StyleSheet.create({
     width:260
   },
   year:{
-    textAlign:'center'
+    textAlign:'center',
+    color:'#999'
   }
 });
