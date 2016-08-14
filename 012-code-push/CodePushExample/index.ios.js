@@ -27,7 +27,7 @@ class CodePushExample extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to React Native----test by feiQ!
+          Welcome to React Native------iQ!
         </Text>
         <Text style={styles.instructions}>
           To get started, edit index.ios.js
